@@ -39,4 +39,7 @@ body {
   background-color: saddlebrown;
 ya que habia borrado App.css xq no vi como el profe actualizo todo su project 
 tremendo error por usar classname en vez de class, cual debo usar entonfces
-error reparado es className con N mayus*/
+error reparado es className con N mayus
+
+otro mega error por un simple espacio entre onmbre de clases ej
+const classes = 'card ' + props.className;*/
