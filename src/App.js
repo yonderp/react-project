@@ -1,6 +1,5 @@
-// import logo from './logo.svg';
-// import './App.css';
-import ExpenseItem from "./components/ExpenseItem";
+import Expenses from "./components/Expenses";
+
 function App() {
   const expenses = [
     {
@@ -9,12 +8,7 @@ function App() {
       amount: 94.12,
       date: new Date(2020, 7, 14),
     },
-    {
-      id: "e2",
-      title: "New TV",
-      amount: 799.49,
-      date: new Date(2021, 2, 12),
-    },
+    { id: "e2", title: "New TV", amount: 799.49, date: new Date(2021, 2, 12) },
     {
       id: "e3",
       title: "Car Insurance",
@@ -28,31 +22,21 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
+
   return (
     <div>
       <h2>Let's get started!</h2>
-      <ExpenseItem
-      title={expenses[0].title}
-      amount={expenses[0].amount}
-      date={expenses[0].date}
-      />
-      <ExpenseItem
-      title={expenses[1].title}
-      amount={expenses[1].amount}
-      date={expenses[1].date}
-      />
-      <ExpenseItem
-      title={expenses[2].title}
-      amount={expenses[2].amount}
-      date={expenses[2].date}
-      />
-      <ExpenseItem
-      title={expenses[3].title}
-      amount={expenses[3].amount}
-      date={expenses[3].date}
-      />
+      <Expenses items={expenses}/>
     </div>
   );
 }
 
 export default App;
+/* meti el cambio que tenia en App.css de
+.App-header {
+  background-color: #282c34; a index.css
+body {
+  background-color: saddlebrown;
+ya que habia borrado App.css xq no vi como el profe actualizo todo su project 
+tremendo error por usar classname en vez de class, cual debo usar entonfces
+error reparado es className con N mayus*/
