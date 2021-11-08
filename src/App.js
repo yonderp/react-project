@@ -1,4 +1,6 @@
 import React from 'react';
+
+import NewExpense from './components/NewExpense/NewExpense';
 import Expenses from "./components/Expenses/Expenses";
 
 const App = () => {
@@ -26,7 +28,7 @@ const App = () => {
 
   return (
     <div>
-      <h2>Let's get started!</h2>
+      <NewExpense />
       <Expenses items={expenses}/>
     </div>
   );
@@ -43,4 +45,8 @@ tremendo error por usar classname en vez de class, cual debo usar entonfces
 error reparado es className con N mayus
 
 otro mega error por un simple espacio entre onmbre de clases ej
-const classes = 'card ' + props.className;*/
+const classes = 'card ' + props.className;
+
+crearon un nuevo componente y yo al parecer crei q venia con todo
+y carpeta asi que la cree y los meti alli su js y su css
+pero nunca mandaron hacer eso y yo y que WHAT?*/
