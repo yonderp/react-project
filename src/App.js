@@ -49,4 +49,7 @@ const classes = 'card ' + props.className;
 
 crearon un nuevo componente y yo al parecer crei q venia con todo
 y carpeta asi que la cree y los meti alli su js y su css
-pero nunca mandaron hacer eso y yo y que WHAT?*/
+pero nunca mandaron hacer eso y yo y que WHAT?
+
+ESTO LLEVA = EN EL MEDIO onChange={dateChangeHandler} />
+PUEDO COLOCAR DOS LINEAS IGUALES DONDE CONSIDERO UNA TIENE ERROR OTRA NO Y DIFERENCIARLAS*/
