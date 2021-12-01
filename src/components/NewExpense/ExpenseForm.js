@@ -90,6 +90,7 @@ const ExpenseForm = (props) => {
       </div>
     </form>
   );
+  // console.log(enteredDate);
 };
-
 export default ExpenseForm;
+//ERROR EN EL GUARDADO O MOSTRADO DE FECHA, APARECE UN DIA ANTES

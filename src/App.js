@@ -33,12 +33,12 @@ const App = () => {
       return [expense, ...prevExpenses]
     });
   };
-
-
-
-
-
-
+// 
+// 
+// 
+// 
+// 
+// 
 
   
   return (
@@ -59,7 +59,7 @@ ya que habia borrado App.css xq no vi como el profe actualizo todo su project
 tremendo error por usar classname en vez de class, cual debo usar entonfces
 error reparado es className con N mayus
 
-otro mega error por un simple espacio entre onmbre de clases ej
+otro mega error por un simple espacio entre nombre de clases ej
 const classes = 'card ' + props.className;
 
 crearon un nuevo componente y yo al parecer crei q venia con todo
@@ -67,4 +67,4 @@ y carpeta asi que la cree y los meti alli su js y su css
 pero nunca mandaron hacer eso y yo y que WHAT?
 
 ESTO LLEVA = EN EL MEDIO onChange={dateChangeHandler} />
-PUEDO COLOCAR DOS LINEAS IGUALES DONDE CONSIDERO UNA TIENE ERROR OTRA NO Y DIFERENCIARLAS*/
+PUEDO COLOCAR DOS LINEAS IGUALES DE CODIGO DONDE CONSIDERO UNA TIENE ERROR OTRA NO PARA DIFERENCIARLAS*/
