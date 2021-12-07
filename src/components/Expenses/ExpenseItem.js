@@ -13,7 +13,7 @@ const  ExpenseItem = (props) => {   // useState();  // let title = props.title;
           <h2>{props.title}</h2>
           <div className="expense-item__price">$ {props.amount}</div>
         </div>
-    </Card>
+      </Card>
     </li>
   );
 }
